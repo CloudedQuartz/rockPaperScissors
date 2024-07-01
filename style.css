@@ -1,0 +1,34 @@
+.gameWindowWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 100%;
+}
+.gameWindow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 15px;
+    padding: 15px;
+    gap: 15px;
+}
+
+/* .innerWindow {
+    flex: 1;
+} */
+
+#rockPaperScissorInput, .formButton {
+    border-style: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+body {
+
+    height: 100vh;
+    margin: 0px;
+}
