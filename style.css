@@ -15,7 +15,6 @@ body {
     align-items: center;
     justify-content: space-evenly;
     padding: 15%;
-    border: solid 2px red;
     gap: 36px;
 }
 
@@ -65,4 +64,9 @@ body {
     width: 128px;
     border-radius: 20px;
     border: lightgray 4px solid;
+}
+
+.rps-icon:hover {
+    transform: scale(1.1);
+    border-color: greenyellow;
 }
